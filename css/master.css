@@ -32,6 +32,7 @@ ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:fo
 
 #main-content {
   margin-left: 150px;
+  overflow: hidden;
 }
 
 #main-content .wrapper {
@@ -348,6 +349,31 @@ ul.top-menu>li>a:hover, ul.top-menu>li>a:focus, ul.top-menu>li>a:active {
   color: white;
 }
 
-#main-content .wrapper .content-right {
-  background-color: blue;
+#content-left #right .container{
+  width: 100%;
+  background-color: white;
+}
+
+#right .container h6 {
+  color: #999;
+}
+
+#right h8 {
+  color: #777;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+}
+
+#right #email-preview {
+  margin-top: 20px;
+  background-color: white;
+}
+
+#email-preview h3 {
+  color: #428bca;
+}
+
+#email-preview #buttom-email {
+  margin-top: 50px;
 }

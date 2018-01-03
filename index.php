@@ -110,8 +110,28 @@ include 'includes/header.php';
 
       <div  class="col-lg-8" id="right">
         <div class="container">
-          <span class="glyphicon glyphicon-menu-left"></span>
-          <h1>GROUP 1</h1>
+          <h2><&nbsp;&nbsp;Group 1</h2><br>
+          <h6>Alex Batman, Johanna Smith, Betty Boom...</h6>
+        </div>
+        <br>
+        <h8>4 previous messages in this conversation</h8>
+        <div class="container" id="email-preview">
+          <h3><span class="glyphicon glyphicon-user"></span> &nbsp; Hans Hansen</h3>
+          <h6>Alex Batman, Johanna Smith, Betty Boom...</h6><br><br>
+
+          <h7>Hello Gabbi, <br><br>
+          Etiam a sem malesuada, mattis sem vel, tristique ligula. Praesent ornare dolor<br>
+          non ex lobortis, eget ullamcorper lobortis.Praesent tristique, purus et hendrerit dapibus, <br>
+          nisi mi congue nunc, nec volutpat lorem ex at dolor. Vestibulum condimentum lacus non accumsan aliquet. <br>
+          Ut scelerisque pretium dui non faucibus. Cras ut diam a metus accumsan iaculis. Mauris id mi massa. <br>
+          Praesent consequat eros in purus luctus tristique. Fusce sit amet mauris sed dolor tempor lacinia eu in justo. <br>
+          Integer sit amet mattis sem. Etiam volutpat blandit nunc eget vulputate. In finibus justo vel eleifend luctus. <br>
+          Donec vel ligula accumsan, vulputate leo vel, lacinia nunc. Vestibulum ultrices tellus et neque porttitor, <br>
+          eget commodo urna euismod.</h7>
+
+          <div id="buttom-email">
+            <h5><span class="glyphicon glyphicon-paperclip"></span> &nbsp; Wireframes (789 KB)</h5>
+          </div>
         </div>
       </div>
 
