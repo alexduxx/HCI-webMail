@@ -278,3 +278,73 @@ right: 42vw;
   right: 280px;
   top: 654px;
 }
+
+
+/* ----------------------------------------
+
+    INNER CONTENT MAIL-PAGE LEFT SIDE
+
+-------------------------*/
+
+
+#main-content .wrapper div div {
+  margin-top: 5px;
+}
+
+#content-left .col-md-4 {
+  margin-left: 5px;
+}
+
+#content-left .input-group input{
+  background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+#content-left .input-group-btn button{
+  background-color: transparent;
+  border: none;
+}
+
+#content-left .input-group-btn span{
+  color: #555;
+}
+
+.mail-time {
+  font-size: 10px;
+  color: #999;
+}
+
+.well-large {
+  background-color: white;
+}
+
+.well-large .container .row h4{
+  color: #428bca;
+  font-weight: 600;
+}
+
+.well-large .container .row h6{
+  color: black;
+  font-weight: 600;
+}
+
+#active-mail{
+  background-color: #428bca;
+  color: white;
+}
+
+#active-mail h4{
+  color: white;
+}
+
+#active-mail h6{
+  color: white;
+}
+
+
+
+#main-content .wrapper .content-right {
+  background-color: blue;
+}

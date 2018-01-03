@@ -5,112 +5,82 @@
     <!--main content start-->
     <section id="main-content">
         <section class="wrapper">
+          <div class="row">
+            <div class="col-lg-10">
 
-            <div class="row">
-                <div class="col-lg-10 main-chart">
 
-                  <div class="row mtbox">
-                    <div class="col-md-2 col-sm-2 col-md-offset-1 box0">
-                      <div class="box1">
-                <span class="li_heart"></span>
-                <h3>933</h3>
+              <div id="content-left" class="row">
+                <div class="col-md-4">
+
+                  <form action="" method="GET">
+                    <div class="row">
+                      <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search" id="txtSearch"/>
+                        <div class="input-group-btn">
+                          <button class="btn btn-primary" type="submit">
+                          <span class="glyphicon glyphicon-search"></span>
+                          </button>
+                        </div>
                       </div>
-                <p>933 People liked your page the last 24hs. Whoohoo!</p>
                     </div>
-                    <div class="col-md-2 col-sm-2 box0">
-                      <div class="box1">
-                <span class="li_cloud"></span>
-                <h3>+48</h3>
+                  </form>
+
+                  <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Sort: Newest First <span class="glyphicon glyphicon-chevron-down"></span></label>
+                  </div>
+
+                  <div class="well well-large" id="active-mail">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <h4><span class="glyphicon glyphicon-user"></span>  Hans Hansen</h4>
+                          <h6>Invitation to event</h6>
+                          <p class="mail-time">13:33 PM</p><br>
+                          <h8>Etiam a sem malesuada, mattis sem vel,<br>
+                            tristique ligula. Praesent ornare dolor<br>
+                            non ex lobortis, eget ullamcorper lobortis.</h8>
+                        </div>
                       </div>
-                <p>48 New files were added in your cloud storage.</p>
                     </div>
-                    <div class="col-md-2 col-sm-2 box0">
-                      <div class="box1">
-                <span class="li_stack"></span>
-                <h3>23</h3>
+                  </div>
+                  <div class="well well-large">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <h4><span class="glyphicon glyphicon-user"></span>  Lone Janson</h4>
+                          <h6>Important message</h6>
+                          <p class="mail-time">11:54 PM</p><br>
+                          <h8>Etiam a sem malesuada, mattis sem vel,<br>
+                            tristique ligula. Praesent ornare dolor<br>
+                            non ex lobortis, eget ullamcorper lobortis.</h8>
+                        </div>
                       </div>
-                <p>You have 23 unread messages in your inbox.</p>
                     </div>
-                    <div class="col-md-2 col-sm-2 box0">
-                      <div class="box1">
-                <span class="li_news"></span>
-                <h3>+10</h3>
+                  </div>
+                  <div class="well well-large">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col">
+                          <h4><span class="glyphicon glyphicon-user"></span>  William Waits</h4>
+                          <h6>Scedule for tomorrow</h6>
+                          <p class="mail-time">11:05 PM</p><br>
+                          <h8>Etiam a sem malesuada, mattis sem vel,<br>
+                            tristique ligula. Praesent ornare dolor<br>
+                            non ex lobortis, eget ullamcorper lobortis.</h8>
+                        </div>
                       </div>
-                <p>More than 10 news were added in your reader.</p>
                     </div>
-                    <div class="col-md-2 col-sm-2 box0">
-                      <div class="box1">
-                <span class="li_data"></span>
-                <h3>OK!</h3>
-                      </div>
-                <p>Your server is working perfectly. Relax & enjoy.</p>
-                    </div>
+                  </div>
 
-                  </div><!-- /row mt -->
-
-
-
-
-
-        <div class="row">
-          <!-- TWITTER PANEL -->
-          <div class="col-md-4 mb">
-                        <div class="darkblue-panel pn">
-                          <div class="darkblue-header">
-                  <h5>DROPBOX STATICS</h5>
-                          </div>
-              <canvas id="serverstatus02" height="120" width="120"></canvas>
-              <script>
-                var doughnutData = [
-                    {
-                      value: 60,
-                      color:"#68dff0"
-                    },
-                    {
-                      value : 40,
-                      color : "#444c57"
-                    }
-                  ];
-                  var myDoughnut = new Chart(document.getElementById("serverstatus02").getContext("2d")).Doughnut(doughnutData);
-              </script>
-              <p>April 17, 2014</p>
-              <footer>
-                <div class="pull-left">
-                  <h5><i class="fa fa-hdd-o"></i> 17 GB</h5>
                 </div>
-                <div class="pull-right">
-                  <h5>60% Used</h5>
+
+              <div id="content-right" class="row">
+                <div class="col-md-8">
+                  <div class="container">
+                    <span class="glyphicon glyphicon-menu-left"></span>
+                  </div>
                 </div>
-              </footer>
-                        </div> <!-- /darkblue panel -->
-          </div><!-- /col-md-4 -->
-
-
-          <div class="col-md-4 mb">
-            <!-- INSTAGRAM PANEL -->
-            <div class="instagram-panel pn">
-              <i class="fa fa-instagram fa-4x"></i>
-              <p>@THISISYOU<br/>
-                5 min. ago
-              </p>
-              <p><i class="fa fa-comment"></i> 18 | <i class="fa fa-heart"></i> 49</p>
-            </div>
-          </div><!-- /col-md-4 -->
-
-          <div class="col-md-4 col-sm-4 mb">
-            <!-- REVENUE PANEL -->
-            <div class="darkblue-panel pn">
-              <div class="darkblue-header">
-                <h5>REVENUE</h5>
               </div>
-              <div class="chart mt">
-                <div class="sparkline" data-type="line" data-resize="true" data-height="75" data-width="90%" data-line-width="1" data-line-color="#fff" data-spot-color="#fff" data-fill-color="" data-highlight-line-color="#fff" data-spot-radius="4" data-data="[200,135,667,333,526,996,564,123,890,464,655]"></div>
-              </div>
-              <p class="mt"><b>$ 17,980</b><br/>Month Income</p>
+              
             </div>
-          </div><!-- /col-md-4 -->
-
-        </div><!-- /row -->
-
-      
-                </div><!-- /col-lg-9 END SECTION MIDDLE -->
