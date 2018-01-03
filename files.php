@@ -23,7 +23,7 @@ include 'includes/header.php';
         </form>
 
         <ul class="list-group" id="contact-list">
-                    <li class="list-group-item selected">
+                    <li class="list-group-item" href="#tab1" data-toggle="tab">
                         <div class="col-xs-12 col-sm-3">
                             <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-responsive img-circle" />
                         </div>
@@ -38,7 +38,7 @@ include 'includes/header.php';
                         </div>
                         <div class="clearfix"></div>
                     </li>
-                    <li class="list-group-item">
+                    <li class="list-group-item" href="#tab2" data-toggle="tab">
                         <div class="col-xs-12 col-sm-3">
                             <img src="http://api.randomuser.me/portraits/men/97.jpg" alt="Seth Frazier" class="img-responsive img-circle" />
                         </div>
@@ -137,67 +137,135 @@ include 'includes/header.php';
 
       <div  class="col-lg-8" id="right">
 
-<div class="container">
-  <div class="drive-wrapper drive-list-view">
-                        <div class="table-responsive drive-items-table-wrapper">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th class="type"></th>
-                                        <th class="name truncate">Name</th>
-                                        <th class="date">Uploaded</th>
-                                        <th class="size">Size</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-text-o text-primary"></i></td>
-                                        <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
-                                        <td class="date">Sep 23, 2015</td>
-                                        <td class="size">18 KB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
-                                        <td class="name truncate"><a href="#">Stock Image DC3214.JPG</a></td>
-                                        <td class="date">Sep 21, 2015</td>
-                                        <td class="size">235 MB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-powerpoint-o text-warning"></i></td>
-                                        <td class="name truncate"><a href="#">Deck Lorem Ipsum.ppt</a></td>
-                                        <td class="date">Sep 20, 2015</td>
-                                        <td class="size">136 MB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-excel-o text-success"></i></td>
-                                        <td class="name truncate"><a href="#">Project Tasks.csv</a></td>
-                                        <td class="date">Aug 16, 2015</td>
-                                        <td class="size">32 KB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-pdf-o text-warning"></i></td>
-                                        <td class="name truncate"><a href="#">Project Brief.pdf</a></td>
-                                        <td class="date">Aug 15, 2015</td>
-                                        <td class="size">73 MB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
-                                        <td class="name truncate"><a href="#">Image DS1341.JPG</a></td>
-                                        <td class="date">Aug 15, 2015</td>
-                                        <td class="size">171 MB</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
-                                        <td class="name truncate"><a href="#">Image DS3214.JPG</a></td>
-                                        <td class="date">Aug 15, 2015</td>
-                                        <td class="size">171 MB</td>
-                                    </tr>
-                                    
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-</div>
+
+
+        <div class="well">
+           <div class="tab-content">
+                 <div class="tab-pane fade in active" id="tab1">
+                   <h3>Scott Stevens</h3>
+
+                   <div class="drive-wrapper drive-list-view">
+                                         <div class="table-responsive drive-items-table-wrapper">
+                                             <table class="table">
+                                                 <thead>
+                                                     <tr>
+                                                         <th class="type"></th>
+                                                         <th class="name truncate">Name</th>
+                                                         <th class="date">Uploaded</th>
+                                                         <th class="size">Size</th>
+                                                     </tr>
+                                                 </thead>
+                                                 <tbody>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-text-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
+                                                         <td class="date">Sep 23, 2015</td>
+                                                         <td class="size">18 KB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Stock Image DC3214.JPG</a></td>
+                                                         <td class="date">Sep 21, 2015</td>
+                                                         <td class="size">235 MB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-powerpoint-o text-warning"></i></td>
+                                                         <td class="name truncate"><a href="#">Deck Lorem Ipsum.ppt</a></td>
+                                                         <td class="date">Sep 20, 2015</td>
+                                                         <td class="size">136 MB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-excel-o text-success"></i></td>
+                                                         <td class="name truncate"><a href="#">Project Tasks.csv</a></td>
+                                                         <td class="date">Aug 16, 2015</td>
+                                                         <td class="size">32 KB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-pdf-o text-warning"></i></td>
+                                                         <td class="name truncate"><a href="#">Project Brief.pdf</a></td>
+                                                         <td class="date">Aug 15, 2015</td>
+                                                         <td class="size">73 MB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Image DS1341.JPG</a></td>
+                                                         <td class="date">Aug 15, 2015</td>
+                                                         <td class="size">171 MB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Image DS3214.JPG</a></td>
+                                                         <td class="date">Aug 15, 2015</td>
+                                                         <td class="size">171 MB</td>
+                                                     </tr>
+
+                                                 </tbody>
+                                             </table>
+                                         </div>
+                                     </div>
+
+
+
+
+                 </div>
+                 <div class="tab-pane fade in" id="tab2">
+                   <h3>Seth Frazier</h3>
+
+
+                   <div class="drive-wrapper drive-list-view">
+                                         <div class="table-responsive drive-items-table-wrapper">
+                                             <table class="table">
+                                                 <thead>
+                                                     <tr>
+                                                         <th class="type"></th>
+                                                         <th class="name truncate">Name</th>
+                                                         <th class="date">Uploaded</th>
+                                                         <th class="size">Size</th>
+                                                     </tr>
+                                                 </thead>
+                                                 <tbody>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-text-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
+                                                         <td class="date">Sep 23, 2015</td>
+                                                         <td class="size">18 KB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-pdf-o text-warning"></i></td>
+                                                         <td class="name truncate"><a href="#">Project Brief.pdf</a></td>
+                                                         <td class="date">Aug 15, 2015</td>
+                                                         <td class="size">73 MB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Image DS1341.JPG</a></td>
+                                                         <td class="date">Aug 15, 2015</td>
+                                                         <td class="size">171 MB</td>
+                                                     </tr>
+                                                     <tr>
+                                                         <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                                         <td class="name truncate"><a href="#">Image DS3214.JPG</a></td>
+                                                         <td class="date">Aug 15, 2015</td>
+                                                         <td class="size">171 MB</td>
+                                                     </tr>
+
+                                                 </tbody>
+                                             </table>
+                                         </div>
+                                     </div>
+
+
+
+
+                 </div>
+                 <div class="tab-pane fade in" id="tab3">
+                   <h3>This is tab 3</h3>
+                 </div>
+           </div>
+ </div>
+
+
+
       </div>
 
 
