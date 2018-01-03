@@ -1,29 +1,14 @@
 
 
-<<?php
+<?php
   include 'right-sidebar.php';
 
  ?>
 
-      </div>  <!--/row   main content + sidebar-right END -->
-    </section>
-  </section>
-<!--main content end-->
-<!--footer start-->
-<!-- <footer class="site-footer">
-    <div class="text-center">
-        TEST
-        <a href="index.php#" class="go-top">
-            <i class="fa fa-angle-up"></i>
-        </a>
-    </div>
-</footer> -->
-<!--footer end-->
-
-
-
-
-</section>
+      </div>  <!--/row   main content wrapper row END -->
+    </section> <!--main content wrapper end-->
+  </section> <!--main content end-->
+</section> <!--container end-->
 
 
 <!-- Modal -->
