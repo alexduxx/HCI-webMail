@@ -1,341 +1,220 @@
-h1.page-header {
-    margin-top: -5px;
-}
+<?php
+include 'includes/header.php';
 
-.sidebar {
-	padding-left: 0;
-}
+?>
 
-.main-container {
-	background: #FFF;
-	padding-top: 15px;
-	margin-top: -20px;
-}
+<div class="col-lg-10">
+    <div class="row" id="content-left">   <!--  id="content-left"  -->
+      <div class="col-lg-4" id="left">
 
-.footer {
-	width: 100%;
-}
 
-:focus {
-	outline: none;
-}
 
-.side-menu {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	background-color: #f8f8f8;
-	border-right: 1px solid #e7e7e7;
-}
-.side-menu .navbar {
-	border: none;
-}
-.side-menu .navbar-header {
-	width: 100%;
-	border-bottom: 1px solid #e7e7e7;
-}
-.side-menu .navbar-nav .active a {
-	background-color: transparent;
-	margin-right: -1px;
-	border-right: 5px solid #e7e7e7;
-}
-.side-menu .navbar-nav li {
-	display: block;
-	width: 100%;
-	border-bottom: 1px solid #e7e7e7;
-}
-.side-menu .navbar-nav li a {
-	padding: 15px;
-}
-.side-menu .navbar-nav li a .glyphicon {
-	padding-right: 10px;
-}
-.side-menu #dropdown {
-	border: 0;
-	margin-bottom: 0;
-	border-radius: 0;
-	background-color: transparent;
-	box-shadow: none;
-}
-.side-menu #dropdown .caret {
-	float: right;
-	margin: 9px 5px 0;
-}
-.side-menu #dropdown .indicator {
-	float: right;
-}
-.side-menu #dropdown > a {
-	border-bottom: 1px solid #e7e7e7;
-}
-.side-menu #dropdown .panel-body {
-	padding: 0;
-	background-color: #f3f3f3;
-}
-.side-menu #dropdown .panel-body .navbar-nav {
-	width: 100%;
-}
-.side-menu #dropdown .panel-body .navbar-nav li {
-	padding-left: 15px;
-	border-bottom: 1px solid #e7e7e7;
-}
-.side-menu #dropdown .panel-body .navbar-nav li:last-child {
-	border-bottom: none;
-}
-.side-menu #dropdown .panel-body .panel > a {
-	margin-left: -20px;
-	padding-left: 35px;
-}
-.side-menu #dropdown .panel-body .panel-body {
-	margin-left: -15px;
-}
-.side-menu #dropdown .panel-body .panel-body li {
-	padding-left: 30px;
-}
-.side-menu #dropdown .panel-body .panel-body li:last-child {
-	border-bottom: 1px solid #e7e7e7;
-}
-.side-menu #search-trigger {
-	background-color: #f3f3f3;
-	border: 0;
-	border-radius: 0;
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 15px 18px;
-}
-.side-menu .brand-name-wrapper {
-	min-height: 50px;
-}
-.side-menu .brand-name-wrapper .navbar-brand {
-	display: block;
-}
-.side-menu #search {
-	position: relative;
-	z-index: 1000;
-}
-.side-menu #search .panel-body {
-	padding: 0;
-}
-.side-menu #search .panel-body .navbar-form {
-	padding: 0;
-	padding-right: 50px;
-	width: 100%;
-	margin: 0;
-	position: relative;
-	border-top: 1px solid #e7e7e7;
-}
-.side-menu #search .panel-body .navbar-form .form-group {
-	width: 100%;
-	position: relative;
-}
-.side-menu #search .panel-body .navbar-form input {
-	border: 0;
-	border-radius: 0;
-	box-shadow: none;
-	width: 100%;
-	height: 50px;
-}
-.side-menu #search .panel-body .navbar-form .btn {
-	position: absolute;
-	right: 0;
-	top: 0;
-	border: 0;
-	border-radius: 0;
-	background-color: #f3f3f3;
-	padding: 15px 18px;
-}
-/* Main body section */
-.side-body {
-	margin-left: 310px;
-}
-/* small screen */
-@media (max-width: 768px) {
-	.side-menu {
-		position: relative;
-		width: 100%;
-		height: 0;
-		border-right: 0;
-	}
+        <form action="" method="GET">
+          <div class="row">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="Search" id="txtSearch"/>
+              <div class="input-group-btn">
+                <button class="btn btn-primary" type="submit">
+                <span class="glyphicon glyphicon-search"></span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
 
-	.side-menu .navbar {
-		z-index: 999;
-		position: relative;
-		height: 0;
-		min-height: 0;
-		background-color:none !important;
-		border-color: none !important;
-	}
-	.side-menu .brand-name-wrapper .navbar-brand {
-		display: inline-block;
-	}
-	/* Slide in animation */
-	@-moz-keyframes slidein {
-		0% {
-			left: -300px;
-		}
-		100% {
-			left: 10px;
-		}
-	}
-	@-webkit-keyframes slidein {
-		0% {
-			left: -300px;
-		}
-		100% {
-			left: 10px;
-		}
-	}
-	@keyframes slidein {
-		0% {
-			left: -300px;
-		}
-		100% {
-			left: 10px;
-		}
-	}
-	@-moz-keyframes slideout {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: -300px;
-		}
-	}
-	@-webkit-keyframes slideout {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: -300px;
-		}
-	}
-	@keyframes slideout {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: -300px;
-		}
-	}
-	/* Slide side menu*/
-	/* Add .absolute-wrapper.slide-in for scrollable menu -> see top comment */
-	.side-menu-container > .navbar-nav.slide-in {
-		-moz-animation: slidein 300ms forwards;
-		-o-animation: slidein 300ms forwards;
-		-webkit-animation: slidein 300ms forwards;
-		animation: slidein 300ms forwards;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-	}
-	.side-menu-container > .navbar-nav {
-		/* Add position:absolute for scrollable menu -> see top comment */
-		position: fixed;
-		left: -300px;
-		width: 300px;
-		top: 43px;
-		height: 100%;
-		border-right: 1px solid #e7e7e7;
-		background-color: #f8f8f8;
-		overflow: auto;
-		-moz-animation: slideout 300ms forwards;
-		-o-animation: slideout 300ms forwards;
-		-webkit-animation: slideout 300ms forwards;
-		animation: slideout 300ms forwards;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-	}
-	@-moz-keyframes bodyslidein {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: 300px;
-		}
-	}
-	@-webkit-keyframes bodyslidein {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: 300px;
-		}
-	}
-	@keyframes bodyslidein {
-		0% {
-			left: 0;
-		}
-		100% {
-			left: 300px;
-		}
-	}
-	@-moz-keyframes bodyslideout {
-		0% {
-			left: 300px;
-		}
-		100% {
-			left: 0;
-		}
-	}
-	@-webkit-keyframes bodyslideout {
-		0% {
-			left: 300px;
-		}
-		100% {
-			left: 0;
-		}
-	}
-	@keyframes bodyslideout {
-		0% {
-			left: 300px;
-		}
-		100% {
-			left: 0;
-		}
-	}
-	/* Slide side body*/
-	.side-body {
-		margin-left: 5px;
-		margin-top: 70px;
-		position: relative;
-		-moz-animation: bodyslideout 300ms forwards;
-		-o-animation: bodyslideout 300ms forwards;
-		-webkit-animation: bodyslideout 300ms forwards;
-		animation: bodyslideout 300ms forwards;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-	}
-	.body-slide-in {
-		-moz-animation: bodyslidein 300ms forwards;
-		-o-animation: bodyslidein 300ms forwards;
-		-webkit-animation: bodyslidein 300ms forwards;
-		animation: bodyslidein 300ms forwards;
-		-webkit-transform-style: preserve-3d;
-		transform-style: preserve-3d;
-	}
-	/* Hamburger */
-	.navbar-toggle-sidebar {
-		border: 0;
-		float: left;
-		padding: 18px;
-		margin: 0;
-		border-radius: 0;
-		background-color: #f3f3f3;
-	}
-	/* Search */
-	#search .panel-body .navbar-form {
-		border-bottom: 0;
-	}
-	#search .panel-body .navbar-form .form-group {
-		margin: 0;
-	}
-	.side-menu .navbar-header {
-		/* this is probably redundant */
-		position: fixed;
-		z-index: 3;
-		background-color: #f8f8f8;
-	}
-	/* Dropdown tweek */
-	#dropdown .panel-body .navbar-nav {
-		margin: 0;
-	}
-}
+        <ul class="list-group" id="contact-list">
+                    <li class="list-group-item selected">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/men/49.jpg" alt="Scott Stevens" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Scott Stevens</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5842 Hillcrest Rd"></span>
+                            <span class="visible-xs"> <span class="text-muted">5842 Hillcrest Rd</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(870) 288-4149"></span>
+                            <span class="visible-xs"> <span class="text-muted">(870) 288-4149</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="scott.stevens@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">scott.stevens@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/men/97.jpg" alt="Seth Frazier" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Seth Frazier</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="7396 E North St"></span>
+                            <span class="visible-xs"> <span class="text-muted">7396 E North St</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(560) 180-4143"></span>
+                            <span class="visible-xs"> <span class="text-muted">(560) 180-4143</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="seth.frazier@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">seth.frazier@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/women/90.jpg" alt="Jean Myers" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Jean Myers</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="4949 W Dallas St"></span>
+                            <span class="visible-xs"> <span class="text-muted">4949 W Dallas St</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(477) 792-2822"></span>
+                            <span class="visible-xs"> <span class="text-muted">(477) 792-2822</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="jean.myers@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">jean.myers@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/men/24.jpg" alt="Todd Shelton" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Todd Shelton</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5133 Pecan Acres Ln"></span>
+                            <span class="visible-xs"> <span class="text-muted">5133 Pecan Acres Ln</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(522) 991-3367"></span>
+                            <span class="visible-xs"> <span class="text-muted">(522) 991-3367</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="todd.shelton@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">todd.shelton@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/women/34.jpg" alt="Rosemary Porter" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Rosemary Porter</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5267 Cackson St"></span>
+                            <span class="visible-xs"> <span class="text-muted">5267 Cackson St</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(497) 160-9776"></span>
+                            <span class="visible-xs"> <span class="text-muted">(497) 160-9776</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="rosemary.porter@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">rosemary.porter@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/women/56.jpg" alt="Debbie Schmidt" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Debbie Schmidt</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="3903 W Alexander Rd"></span>
+                            <span class="visible-xs"> <span class="text-muted">3903 W Alexander Rd</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(867) 322-1852"></span>
+                            <span class="visible-xs"> <span class="text-muted">(867) 322-1852</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="debbie.schmidt@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">debbie.schmidt@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="col-xs-12 col-sm-3">
+                            <img src="http://api.randomuser.me/portraits/women/76.jpg" alt="Glenda Patterson" class="img-responsive img-circle" />
+                        </div>
+                        <div class="col-xs-12 col-sm-9">
+                            <span class="name">Glenda Patterson</span><br/>
+                            <span class="glyphicon glyphicon-map-marker text-muted c-info" data-toggle="tooltip" title="5020 Poplar Dr"></span>
+                            <span class="visible-xs"> <span class="text-muted">5020 Poplar Dr</span><br/></span>
+                            <span class="glyphicon glyphicon-earphone text-muted c-info" data-toggle="tooltip" title="(538) 718-7548"></span>
+                            <span class="visible-xs"> <span class="text-muted">(538) 718-7548</span><br/></span>
+                            <span class="fa fa-comments text-muted c-info" data-toggle="tooltip" title="glenda.patterson@example.com"></span>
+                            <span class="visible-xs"> <span class="text-muted">glenda.patterson@example.com</span><br/></span>
+                        </div>
+                        <div class="clearfix"></div>
+                    </li>
+                </ul>
+
+      </div>
+
+    <!-- id="content-right" -->
+
+
+      <div  class="col-lg-8" id="right">
+
+<div class="container">
+  <div class="drive-wrapper drive-list-view">
+                        <div class="table-responsive drive-items-table-wrapper">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th class="type"></th>
+                                        <th class="name truncate">Name</th>
+                                        <th class="date">Uploaded</th>
+                                        <th class="size">Size</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-text-o text-primary"></i></td>
+                                        <td class="name truncate"><a href="#">Meeting Notes.txt</a></td>
+                                        <td class="date">Sep 23, 2015</td>
+                                        <td class="size">18 KB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                        <td class="name truncate"><a href="#">Stock Image DC3214.JPG</a></td>
+                                        <td class="date">Sep 21, 2015</td>
+                                        <td class="size">235 MB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-powerpoint-o text-warning"></i></td>
+                                        <td class="name truncate"><a href="#">Deck Lorem Ipsum.ppt</a></td>
+                                        <td class="date">Sep 20, 2015</td>
+                                        <td class="size">136 MB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-excel-o text-success"></i></td>
+                                        <td class="name truncate"><a href="#">Project Tasks.csv</a></td>
+                                        <td class="date">Aug 16, 2015</td>
+                                        <td class="size">32 KB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-pdf-o text-warning"></i></td>
+                                        <td class="name truncate"><a href="#">Project Brief.pdf</a></td>
+                                        <td class="date">Aug 15, 2015</td>
+                                        <td class="size">73 MB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                        <td class="name truncate"><a href="#">Image DS1341.JPG</a></td>
+                                        <td class="date">Aug 15, 2015</td>
+                                        <td class="size">171 MB</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="type"><i class="fa fa-file-image-o text-primary"></i></td>
+                                        <td class="name truncate"><a href="#">Image DS3214.JPG</a></td>
+                                        <td class="date">Aug 15, 2015</td>
+                                        <td class="size">171 MB</td>
+                                    </tr>
+                                    
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+</div>
+      </div>
+
+
+  </div> <!-- <div class="row" id="content-left"> -->
+</div>  <!--col lg 10 end-->
+
+
+
+
+
+
+
+
+
+
+<?php
+
+include_once 'includes/footer.php';
+
+ ?>

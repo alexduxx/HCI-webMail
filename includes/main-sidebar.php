@@ -13,14 +13,21 @@
                 <li class="sub-menu">
                   <!-- class mt ( default )  -->
                     <a class="active" href="index.php">
-                        <i class="fa fa-dashboard"></i>
+                        <i class="fa fa-inbox"></i>
                         <span>Inbox</span>
+
                     </a>
                     <ul class="sub">
                         <li ><a data-toggle="modal" data-target="#writeEmailModal"  href="javascript:;">New</a></li>
-                        <li><a  href="buttons.html">All</a></li>
-                        <li><a  href="panels.html">Unread</a></li>
-                        <li><a  href="panels.html">Archived</a></li>
+                        <li><a  href="index.php">All</a></li>
+                        <li>
+                          <a  href="index.php">Unread
+                            <span class="badge bg-theme">5</span>
+                          </a>
+                          
+
+                        </li>
+                        <li><a  href="index.php">Archived</a></li>
 
 
 
@@ -30,7 +37,7 @@
 
                 <li class="sub-menu">
                     <a href="javascript:;" >
-                        <i class="fa fa-desktop"></i>
+                        <i class="fa fa-star"></i>
                         <span>Favourites</span>
                     </a>
                     <ul class="sub">
@@ -42,7 +49,7 @@
 
                 <li class="sub-menu">
                     <a href="javascript:;" >
-                        <i class="fa fa-cogs"></i>
+                        <i class="fa fa-sign-out"></i>
                         <span>Sent</span>
                     </a>
                     <ul class="sub">
@@ -53,7 +60,7 @@
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;" >
-                        <i class="fa fa-book"></i>
+                        <i class="fa fa-pencil-square-o"></i>
                         <span>Drafts</span>
                     </a>
                     <ul class="sub">
@@ -64,14 +71,14 @@
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;" >
-                        <i class="fa fa-tasks"></i>
+                        <i class="fa fa-trash-o"></i>
                         <span>Trash</span>
                     </a>
 
                 </li>
                 <li class="sub-menu">
                     <a href="javascript:;" >
-                        <i class="fa fa-th"></i>
+                        <i class="fa fa-comments"></i>
                         <span>Chat</span>
                     </a>
 

@@ -12,20 +12,20 @@
 
           <div class="nav notify-row">
             <ul class="nav top-menu">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Mail <span class="sr-only">(current)</span></a>
+              <li class="nav-item">
+                <a class="nav-link active" href="index.php">Mail <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="contacts.php">Contacts</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Notepad</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Files</a>
+                <a class="nav-link" href="files.php">Files</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Manage</a>
+                <a class="nav-link" href="manage.php">Manage</a>
               </li>
             </ul>
           </div>
