@@ -5,7 +5,7 @@ include 'includes/header.php';
 
 <div class="col-lg-10">
     <div class="row" id="content-left">   <!--  id="content-left"  -->
-      <div class="col-md-4" id="left">
+      <div class="col-lg-4" id="left">
 
 
 
@@ -106,7 +106,7 @@ include 'includes/header.php';
       </div>
 
     <!-- id="content-right" -->
-      <div  class="col-md-8">
+      <div  class="col-lg-8">
         <div class="container">
           <span class="glyphicon glyphicon-menu-left"></span>
         </div>

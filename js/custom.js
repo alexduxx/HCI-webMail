@@ -15,10 +15,13 @@ if (annyang) {
     'show tps report': function() {
       $('#tpsreport').animate({bottom: '-100px'});
     },
-    'hello': function(){
-      $('#myModal').modal('show');
-      alert("Hello! I am an alert box!!");
-      console.log('cacat');
+    'write email': function(){
+      $('#writeEmailModal').modal('show');
+
+    },
+    'close': function(){
+      $('#writeEmailModal').modal('hide');
+
     }
 
   };
