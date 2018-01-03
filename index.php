@@ -106,11 +106,9 @@ include 'includes/header.php';
       </div>
 
     <!-- id="content-right" -->
-<<<<<<< HEAD
-      <div  class="col-lg-8">
-=======
-      <div  class="col-md-8" id="right">
->>>>>>> e3a9c8dc1ba281fb85388b2f75fab181d0290b2a
+
+
+      <div  class="col-lg-8" id="right">
         <div class="container">
           <span class="glyphicon glyphicon-menu-left"></span>
           <h1>GROUP 1</h1>
