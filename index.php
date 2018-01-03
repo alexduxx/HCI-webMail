@@ -76,9 +76,9 @@ include 'includes/header.php';
           <div class="container">
             <div class="row">
               <div class="col">
-                <h4><span class="glyphicon glyphicon-user"></span>  William Waits</h4>
-                <h6>Scedule for tomorrow</h6>
-                <p class="mail-time">11:05 PM</p><br>
+                <h4><span class="glyphicon glyphicon-user"></span>  Mona Lisa</h4>
+                <h6>Paintings</h6>
+                <p class="mail-time">10:31 PM</p><br>
                 <h8>Etiam a sem malesuada, mattis sem vel,<br>
                   tristique ligula. Praesent ornare dolor<br>
                   non ex lobortis, eget ullamcorper lobortis.</h8>
@@ -92,9 +92,9 @@ include 'includes/header.php';
           <div class="container">
             <div class="row">
               <div class="col">
-                <h4><span class="glyphicon glyphicon-user"></span>  William Waits</h4>
-                <h6>Scedule for tomorrow</h6>
-                <p class="mail-time">11:05 PM</p><br>
+                <h4><span class="glyphicon glyphicon-user"></span>  Jack Sparrow</h4>
+                <h6>So many pirates</h6>
+                <p class="mail-time">08:45 PM</p><br>
                 <h8>Etiam a sem malesuada, mattis sem vel,<br>
                   tristique ligula. Praesent ornare dolor<br>
                   non ex lobortis, eget ullamcorper lobortis.</h8>
@@ -106,9 +106,14 @@ include 'includes/header.php';
       </div>
 
     <!-- id="content-right" -->
+<<<<<<< HEAD
       <div  class="col-lg-8">
+=======
+      <div  class="col-md-8" id="right">
+>>>>>>> e3a9c8dc1ba281fb85388b2f75fab181d0290b2a
         <div class="container">
           <span class="glyphicon glyphicon-menu-left"></span>
+          <h1>GROUP 1</h1>
         </div>
       </div>
 
